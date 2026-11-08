@@ -22,6 +22,21 @@ This repository provides supplementary experimental documentation, additional ev
 
 **The published paper is self-contained.** The materials provided here are complementary and are not required to understand its main contributions, methodology, or conclusions.
 
+## Methodology Overview
+
+Our evaluation explores protocol-induced correlations at different levels of granularity, progressing from individual paired executions to neighboring pairs and full eight-pair batches.
+
+![Protocol-aware side-channel attack strategies](assets/IKNP_Methodology_Figure.png)
+
+**Protocol-aware attack strategies.** The diagram illustrates four levels of leakage aggregation:
+
+- **(a) Intra-pair:** Combines complementary transformations of two traces from the same paired execution into a multi-channel representation.
+- **(b) Inter-pair:** Fuses trace representations from neighboring pairs to exploit cross-instance correlations.
+- **(c) Intra-batch:** Aggregates evidence across all eight pairs within a batch, where the underlying secret relation remains fixed.
+- **(d) Inter-batch:** Illustrates a conceptual extension in which evidence is aggregated across multiple batches. This strategy is presented as a potential research direction and was not experimentally evaluated in the paper.
+
+The evaluated strategies exploit known relationships between paired executions and, where applicable, deterministic XOR offsets induced by the protocol and counter structure.
+
 ## Repository Contents
 
 ### 1. AESPTv2 Baseline Evaluation
