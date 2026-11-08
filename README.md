@@ -51,6 +51,18 @@ Additional results from the classical Multivariate Gaussian Template Attack eval
 - Guessing Entropy and top-k Success Rate measurements.
 - Comparison with the corresponding CNN-based approach.
 
+
+### 4. Experimental Diagnostics of Lightweight Countermeasures
+
+Supplementary experimental analysis of the cyclic-shift and coded-index countermeasures presented in the accompanying paper, including:
+
+- Success-rate behavior across different effective-delta values.
+- Distribution of final candidate ranks under cyclic-shift protection.
+- Comparison of Guessing Entropy (GE) and Success Rate (SR) across protected and unprotected configurations.
+- Extended coded-index evaluation over larger attack-example budgets.
+
+These diagnostics provide additional insight into the empirical behavior of the proposed countermeasures
+
 ## Publication
 
 **Paper:** Mind Your Oblivious Transfer (OT) Extensions Deployed in the Real-world  
