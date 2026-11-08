@@ -76,7 +76,7 @@ Supplementary experimental analysis of the cyclic-shift and coded-index counterm
 - Comparison of Guessing Entropy (GE) and Success Rate (SR) across protected and unprotected configurations.
 - Extended coded-index evaluation over larger attack-example budgets.
 
-These diagnostics provide additional insight into the empirical behavior of the proposed countermeasures
+These diagnostics provide additional insight into the empirical behavior of the proposed countermeasures.
 
 ## Publication
 
